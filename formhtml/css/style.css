@@ -1,0 +1,31 @@
+form {
+background-color: beige;
+border: blue 5px solid;
+width: 450px;
+padding: 20px;
+}
+h1 {
+    text-align: center;
+    color:blue;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea[name="message"]{
+    background-color:bisque;
+    color: #000;
+    border:lightblue 1px solid;
+    height:30px;
+}
+textarea {
+    height:50px;
+    width:300px
+}
+input[type="text"]:focus, input[type="email"]:focus, input[type="tel"]:focus, textarea[name="message"]:focus{
+    background-color:lightgray;
+    color: #fff;
+    border: lightgray 1px solid;
+}
+input[type="submit"]{
+    background-color: darkblue;
+    color:#fff;
+    padding: 5px 10px;
+    border: darkcyan 1px solid;
+}

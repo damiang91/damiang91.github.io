@@ -3,7 +3,7 @@
 
     .header{
         height:70%;
-        background-image: url(../plik/img/man-2.jpg);
+        background-image: url(../3rwd/img/man-2.jpg);
         width:100%;
         background-size:cover;
         background-repeat: no-repeat;
@@ -22,7 +22,7 @@
 {
     .header{
         height:50%;
-        background-image: url(../plik/img/man-1.jpg);
+        background-image: url(../3rwd/img/man-1.jpg);
         width:100%;
         background-size:cover;
         background-repeat: no-repeat;

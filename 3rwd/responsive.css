@@ -2,28 +2,24 @@
 {
 
     .header{
-        height:70%;
-        background-image: url("img/man-2.jpg");
+        height:70vh;
+        background-image: url(../3rwd/img/man-2.jpg);
         width:100%;
+        background-position: center;
         background-size:cover;
         background-repeat: no-repeat;
         display:flex;
         justify-content: flex-end;
         align-items: flex-start;
     }
-    .background-img{
-        margin-top: 100px;
-    }
-    
-
-
 }
 @media (max-width:992px)
 {
     .header{
-        height:50%;
-        background-image: url("img/man-1.jpg");
+        height:50vh;
+        background-image: url(../3rwd/img/man-1.jpg);
         width:100%;
+        background-position: center;
         background-size:cover;
         background-repeat: no-repeat;
         display:flex;
@@ -33,7 +29,7 @@
         
     }
     .background-img {
-       margin-top: 350px;
+       margin-top: 70vh;
     }
     .best{
         font-size:15px;

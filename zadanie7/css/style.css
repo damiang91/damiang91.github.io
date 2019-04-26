@@ -26,9 +26,11 @@
     opacity: 0; 
     transition: opacity 0.25s ease-in; 
     background:#ff6f00; 
-    content: ""; 
+    content: attr(iclass); 
+    color:#fff;
 }
 
 .image:hover:before { 
     opacity: 0.5; 
 }
+

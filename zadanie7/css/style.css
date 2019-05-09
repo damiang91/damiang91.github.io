@@ -34,3 +34,17 @@
     opacity: 0.5; 
 }
 
+.image i:before {
+    width:100%;
+    height:100%;
+    position:absolute;
+    top:60px;
+    left:0px;
+    color:white;
+    opacity:0;
+    transition: opacity 0.25s ease-in; 
+}
+
+.image i:hover:before {
+    opacity: 1;
+}

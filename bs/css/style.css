@@ -1,0 +1,10 @@
+.fab {
+    font-size: 5em;
+    color: orange;
+    background-color: rgb(243, 239, 239);
+    width:120px;
+    height:120px;
+    border-radius:50%;
+}
+
+

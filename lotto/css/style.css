@@ -1,0 +1,61 @@
+.header {
+    border: 2px solid black;
+    height:300px;
+    width:300px;
+    margin:0;
+}
+.header .pileczka {
+    float:left;
+    background-color: yellow;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    text-align:center;
+    margin:5px;
+    border: 1px solid #000;
+}
+.btn{
+    margin: 0 auto;
+    display:block;
+    background-color:pink;
+    padding: 5px 10px;
+    transition: .3s;
+}
+.btn:hover{
+    background-color: palevioletred;
+    
+}
+.btn-r{
+    margin: 0 auto;
+    display:block;
+    background-color:blueviolet;
+    padding: 5px 10px;
+    transition: .3s;
+}
+.btn-r:hover{
+    background-color:blue;
+}
+.btn-all{
+    margin: 0 auto;
+    display:block;
+    background-color:red;
+    padding: 5px 10px;
+    transition: .3s;
+}
+.btn-all:hover{
+    background-color:lightsalmon;
+}
+
+div {
+    float:left;
+    background-color: yellow;
+    border-radius: 50%;
+    width:40px;
+    height:40px;
+    line-height: 40px;
+    text-align:center;
+    margin:20px;
+    border: 2px solid #000;
+
+}

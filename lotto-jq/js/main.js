@@ -52,6 +52,10 @@ $(".btn-r").click(function(){
 $(".btn-all").click(function(){
     remAll();
 })
+$("h1").click(function(){
+    $(this).next().slideToggle();
+})
+
 ballsAll();
 });
 

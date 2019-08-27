@@ -1,10 +1,36 @@
-.header {
-    border: 2px solid black;
-    height:300px;
-    width:300px;
-    margin:0;
+/* container main */
+body{
+    width:500px;
+    height:550px;
+
 }
-.header .pileczka {
+.container {
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding:10px;
+    background-color: dimgrey;
+    width:500px;
+    height:500px;
+}
+
+
+.container .header {
+    border: 2px solid black;
+    height:350px;
+    width:350px;
+    margin:0;
+    margin-top:50px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+}
+.container .header h1 {
+    margin-top: -35px;
+}
+
+/* balls in header */
+.container .header .pileczka {
     float:left;
     background-color: yellow;
     border-radius: 50%;
@@ -13,41 +39,53 @@
     line-height: 30px;
     text-align:center;
     margin:5px;
+    
     border: 1px solid #000;
 }
-.btn{
+.container .header .pileczka2 {
+    float:left;
+    background-color: red;
+    border-radius: 50%;
+    width:30px;
+    height:30px;
+    line-height: 30px;
+    text-align:center;
+    margin:5px;
+    border: 1px solid #000;
+}
+.container .btn{
     margin: 0 auto;
     display:block;
     background-color:pink;
     padding: 5px 10px;
     transition: .3s;
 }
-.btn:hover{
+.container .btn:hover{
     background-color: palevioletred;
     
 }
-.btn-r{
+.container .btn-r{
     margin: 0 auto;
     display:block;
     background-color:blueviolet;
     padding: 5px 10px;
     transition: .3s;
 }
-.btn-r:hover{
+.container .btn-r:hover{
     background-color:blue;
 }
-.btn-all{
+.container .btn-all{
     margin: 0 auto;
     display:block;
     background-color:red;
     padding: 5px 10px;
     transition: .3s;
 }
-.btn-all:hover{
+.container .btn-all:hover{
     background-color:lightsalmon;
 }
 
-div {
+.randomBall {
     float:left;
     background-color: yellow;
     border-radius: 50%;

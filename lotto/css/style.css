@@ -1,12 +1,8 @@
 /* container main */
-body{
-    width:500px;
-    height:550px;
 
-}
 .container {
     display:flex;
-    flex-direction: column;
+    flex-direction: row;
     text-align: center;
     align-items: center;
     padding:10px;
@@ -24,11 +20,18 @@ body{
     margin-top:50px;
     margin-bottom: 20px;
     background-color: cadetblue;
+    flex-basis: 70%;
 }
 .container .header h1 {
     margin-top: -35px;
 }
-
+.container .balls{
+    flex-basis: 10%;
+}
+.container .ball{
+    margin-bottom: 200px;
+    flex-basis: 20%;
+}
 /* balls in header */
 .container .header .pileczka {
     float:left;
